@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido Cambridge</title>
+    <link rel="stylesheet" type="text/css" href="styleindex1.css">
+</head>
+<body>
+    <section class="sub-headerII"> 
+        <nav>
+            <a href="Index1.html"><img src="Cambridge Logo.png"></a>
+            <div class ="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul> 
+                    <li><a href="Index1.html">Inicio</a></li> 
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+    <!-- blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/graduada.jpg">
+                <h2>Nuestros programas de certificados y en línea para 2023</h2>
+                <p>La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura. La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura.</p>
+                <br>
+                <p>La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura. La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura.</p>
+                <br>
+                <p>La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura. La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura.</p>
+                <br>
+                <p>La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura. La ciudad de Cambridge es conocida por ser una ciudad histórica, hogar de la Universidad de Cambridge y por su impresionante arquitectura.</p>
+
+                <div class="comment-box">
+                    <h3>Deja un comentario</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Ingrese su nombre">
+                        <input type="email" placeholder="Ingrese su correo">
+                        <textarea rows="5" placeholder="Deje un comentario"></textarea>
+                        <button type="submit" class="hi-btn red-btn">Publicar Comentario</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>categorías de publicaciones</h3>
+                <div>
+                    <span>Análisis de negocio </span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Ciencia de los datos </span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Aprendizaje automático </span>
+                    <span>23</span>
+                </div>
+
+                <div>
+                    <span>Ciencias de la Computación </span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCad </span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Periodismo </span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Ciencia </span>
+                    <span>44</span>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+
+    <!-- footer -->
+    <section class="campus">
+        <h1>Blog</h1>
+        <p> Con más de 20 000 estudiantes de todos los ámbitos de la vida y de todos los rincones del mundo, más de 12 000 empleados, 31 facultades y 150 departamentos, facultades, escuelas y otras instituciones, no hay dos días iguales en la Universidad de Cambridge.
+            
+            La Universidad es una confederación de Escuelas, Facultades, Departamentos y Colegios. Los 31 Colegios se rigen por sus propios estatutos y reglamentos, pero son parte integral de la composición de la Universidad.
+            
+            Además de ser miembro de la Universidad y de una Facultad/Departamento académico, nuestros estudiantes también pertenecen a una comunidad universitaria, un arreglo que ofrece apoyo pastoral y académico para cada individuo.
+            Además de su fuerte enfoque en la educación, la Universidad de Cambridge es conocida por su excelencia en la investigación, con varios premios Nobel y otros reconocimientos otorgados a sus profesores y graduados. La universidad también tiene una amplia presencia internacional, con programas de intercambio y colaboración con instituciones de todo el mundo.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Elaborado por <i class="fa fa-heart-o"></i>Jose Abraham Y Jorge Calix</p>
+    </section>
+
+    <!--javascript-->
+<script type="text/javascript">
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+
+    function HideMenu() {
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+    
+</body>
+</html>

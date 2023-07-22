@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido Cambridge</title>
+    <link rel="stylesheet" type="text/css" href="styleindex1.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="Index1.html"><img src="Cambridge Logo.png"></a>
+            <div class ="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul> 
+                    <li><a href="Index1.html">Inicio</a></li> 
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h2>Sobre Nosotros </h2>
+    </section>
+
+    <!-- footer -->
+    <section class="campus">
+        <h1>Conoce Mas</h1>
+        <p> Con más de 20 000 estudiantes de todos los ámbitos de la vida y de todos los rincones del mundo, más de 12 000 empleados, 31 facultades y 150 departamentos, facultades, escuelas y otras instituciones, no hay dos días iguales en la Universidad de Cambridge.
+            La Universidad es una confederación de Escuelas, Facultades, Departamentos y Colegios. Los 31 Colegios se rigen por sus propios estatutos y reglamentos, pero son parte integral de la composición de la Universidad.
+            Además de ser miembro de la Universidad y de una Facultad/Departamento académico, nuestros estudiantes también pertenecen a una comunidad universitaria, un arreglo que ofrece apoyo pastoral y académico para cada individuo.
+            Además de su fuerte enfoque en la educación, la Universidad de Cambridge es conocida por su excelencia en la investigación, con varios premios Nobel y otros reconocimientos otorgados a sus profesores y graduados. La universidad también tiene una amplia presencia internacional, con programas de intercambio y colaboración con instituciones de todo el mundo.</p>
+    </section>
+
+    <!--javascript-->
+<script type="text/javascript">
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+
+    function HideMenu() {
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Nuestra Universidad</h1>
+                <p> La Universidad de Cambridge es una de las universidades más antiguas y prestigiosas del mundo, ubicada en la ciudad de Cambridge, Inglaterra. Fundada en 1209, la universidad tiene una larga historia de excelencia académica y ha producido numerosos líderes y académicos destacados en una variedad de campos.</p>
+                
+            </div>
+            <div class="about-col"></div>
+            <img src="img/cambridge.jpg">
+        </div>
+        <p>Elaborado por <i class="#"></i>Jose Abraham Y Jorge Calix</p>
+    </section>
+    
+</body>
+</html>
